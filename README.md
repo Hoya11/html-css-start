@@ -1,3 +1,3 @@
 # HTML CSS STRAT
 
-CSS
+HTML & CSS are so much fun!
