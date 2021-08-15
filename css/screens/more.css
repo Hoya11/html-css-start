@@ -33,3 +33,17 @@
   font-size: 26px;
   color: white;
 }
+
+@keyframes subiconbig {
+  from {
+    transform: none;
+  }
+  to {
+    transform: scaleY(1.15) scaleX(1.15);
+  }
+}
+
+.more-suggestions__icon-image:hover {
+  animation: subiconbig 0.2s ease-in-out forwards;
+  background-color: gray;
+}

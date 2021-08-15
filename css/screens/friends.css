@@ -1,7 +1,7 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #fafafa;
+  background-color: #9bbbd4;
   padding: 15px 0px;
   font-size: 18px;
   font-weight: 600;
@@ -42,7 +42,7 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-color: #9bbbd4;
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -50,7 +50,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   font-size: 120px;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 1.5s;
+}
+#splash-screen span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 64px;
+  top: 280px;
+  left: 110px;
 }

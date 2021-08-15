@@ -1,3 +1,16 @@
+@keyframes iconbig {
+  from {
+    transform: none;
+  }
+  to {
+    transform: scaleY(1.4) scaleX(1.4);
+  }
+}
+
+.icon-row__icon i:hover {
+  animation: iconbig 0.2s ease-in-out forwards;
+}
+
 .icon-row {
   display: flex;
   justify-content: space-between;
