@@ -23,7 +23,6 @@
 #login-form input {
   padding: 15px 0px;
   border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   font-size: 18px;
   margin-bottom: 25px;
 }
@@ -51,4 +50,15 @@
   text-decoration: none;
   color: inherit;
   font-size: 13px;
+}
+
+.login-form__name {
+  background-color: #9bbbd4;
+}
+.login-form__password {
+  background-color: #9bbbd4;
+}
+
+.login-form__btn:hover {
+  animation: userComponentsize 0.3s ease-in-out forwards;
 }
